@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "641910708357",
+    "firebase_url": "https://pongo-payments-ltd.firebaseio.com",
+    "project_id": "pongo-payments-ltd",
+    "storage_bucket": "pongo-payments-ltd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641910708357:android:149b344b3973e15624b1ec",
+        "android_client_info": {
+          "package_name": "com.pongopay.pongopay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641910708357-eejucp6hu6o18chb9t9csldp7ri1ltf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pongopay.pongopay",
+            "certificate_hash": "40f5225948a9c2cfc1aa05a624a111d12a41abe9"
+          }
+        },
+        {
+          "client_id": "641910708357-j9je4n36dtib0rv9u3j0luj72e8eqa34.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsZPWvEbTgdeoTGPkXfFrBRb5Xnoy34iQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641910708357-j9je4n36dtib0rv9u3j0luj72e8eqa34.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "641910708357-q1nu1km18ovk2mk8tr8mpr2doiall3eh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pongopay.pongopay"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

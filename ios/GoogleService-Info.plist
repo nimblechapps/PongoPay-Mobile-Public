@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>641910708357-q1nu1km18ovk2mk8tr8mpr2doiall3eh.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.641910708357-q1nu1km18ovk2mk8tr8mpr2doiall3eh</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>641910708357-6o1edb0riti1uskpei58itkl0upf5op0.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAdTZwTe1Vx4HvRtL4T9yASykbP2p5U2x8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>641910708357</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pongopay.pongopay</string>
+	<key>PROJECT_ID</key>
+	<string>pongo-payments-ltd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pongo-payments-ltd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:641910708357:ios:686bbbd9578b00c724b1ec</string>
+	<key>DATABASE_URL</key>
+	<string>https://pongo-payments-ltd.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,111 @@
+
+import { StyleSheet } from 'react-native';
+import Color from "../../../utils/color"
+import { largeCutoff, mediumCutoff, screenHeight, screenWidth } from "../../../utils/theme"
+import Globals from "../../../utils/Globals";
+
+let loginStyle = {
+    container: {
+        height: screenHeight,
+        width: screenWidth,
+        alignItems: 'center',
+        justifyContent: (Globals.isIpad ? "flex-start" : "center"),
+        backgroundColor: Color.WHITE,
+        flex: 1,
+    },
+    centerView: {
+        marginTop: 32
+    },
+    mainView: {
+        width: screenWidth - 40,
+        alignSelf: 'center'
+    },
+
+    underlineStyleBase: {
+        width: 40,
+        height: 40,
+        borderRadius: 20,
+        borderWidth: 1,
+        color: '#606060',
+        fontSize: 26,
+        paddingTop: 2,
+        paddingBottom: 2
+    },
+
+    underlineStyleHighLighted: {
+        borderColor: "#000",
+        paddingTop: 2,
+        paddingBottom: 2
+    },
+    logoStyle: {
+        alignSelf: 'flex-start',
+        marginLeft: 0,
+        marginTop: screenHeight * 0.05,
+        marginBottom: screenHeight * 0.06,
+    },
+    logoStylePad: {
+        alignSelf: 'flex-start',
+        marginTop: 0,
+        marginBottom: screenHeight * 0.06,
+    },
+    logoMainView: {
+        width: '100%',
+    },
+    logoMainViewPad: {
+        width: 450,
+    },
+    mainView: {
+        width: screenWidth - 30,
+    },
+    mainViewPad: {
+        width: 450,
+    },
+    boxShadowViewPad: {
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: Color.WHITE,
+        borderRadius: 4,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 0 },
+        shadowOpacity: 0.2,
+        shadowRadius: 4,
+        elevation: 3,
+        width: '96%',
+        height: screenHeight * 0.5,
+        paddingTop: 32,
+        paddingBottom: 32,
+        paddingRight: 30,
+        paddingLeft: 30,
+    },
+    scrollView: {
+        // alignItems: "flex-start",
+        // justifyContent: "flex-start",
+        // flex: 1
+    },
+    scrollViewPad: {
+        alignItems: "center",
+        justifyContent: "center",
+        flex: 1
+    },
+    scrollInsideViewStyle: {
+        alignSelf: 'center',
+        width: Globals.isIpad ? screenWidth * 0.5 : screenWidth - 80,
+        justifyContent: 'center',
+    },
+}
+
+if (screenHeight > largeCutoff) {
+    //large
+    // loginStyle.scrollInsideViewStyle.marginTop = (Globals.isIpad ? 0 : screenHeight * 0.14)
+} else if (screenHeight > mediumCutoff) {
+    //medium
+    // loginStyle.scrollInsideViewStyle.marginTop = screenHeight * 0.10
+} else {
+    //small
+    // loginStyle.logoStyle.marginTop = screenHeight * 0.08,
+    //     loginStyle.logoStyle.marginBottom = screenHeight * 0.08
+}
+//@ts-ignore
+const styles = StyleSheet.create(loginStyle);
+
+export default styles;
